@@ -13,8 +13,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">-->
 
 
-  <link href="../css/ratchet.min.css" rel="stylesheet">
-
+  <link href="css/ratchet.min.css" rel="stylesheet">
+<!-- Eigene CSS Definitionen -->
+<link href="css/index.css" rel="stylesheet">
 
  
 </head>
@@ -28,11 +29,18 @@
 
   <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
   <div class="content">
-    <p class="content-padded">
+    <p class="content-padded"></p>
 
       <h1>Erfasse einen Hinweis</h1>
-      <button id="kamera" class="btn">Text erfassen</button>
-      <button id="kamera" class="btn">Kamera starten</button>
+      <button id="text" class="btn">Text erfassen</button>
+      
+<!-- Muss genau so bleiben-->
+      <div id="deviceready" class="blink">
+        <p class="event listening"></p>
+      <p class="event received"></p>
+        <button id="kamera" class="btn">Kamera</button>
+    </div>
+</div>
 
     </p>
   </div>
@@ -40,9 +48,9 @@
 
   <!-- phantom library, needed for Cordova api calls, added during build -->
   <script type="text/javascript" src="cordova.js"></script>
-  <script type="text/javascript" src="../js/index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
   <!-- Include the compiled Ratchet JS -->
-  <script type="text/javascript" src="../js/ratchet.min.js"></script>
+  <script type="text/javascript" src="js/ratchet.min.js"></script>
 
 
 
