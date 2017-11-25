@@ -51,11 +51,10 @@ var app = {
           }
 
           //Maps
-          plugin.google.maps.Map.getMap()
-          var div = document.getElementById("map_canvas");
+          var div = document.getElementById("map_canvas1");
           var map = plugin.google.maps.Map.getMap(div);
           map.one(plugin.google.maps.event.MAP_READY, function() {
-            console.log("--> map_canvas : ready.");
+            console.log("--> map_canvas1 : ready.");
           });
 
     },
