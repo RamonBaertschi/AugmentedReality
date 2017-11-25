@@ -115,3 +115,12 @@ border: none;
 #modal{
 background: #eaeaea;
 }
+#map {
+    height: 100px;
+    width: 100px;
+   }
+#canvas{
+    border: 1px solid black;
+    
+
+}
