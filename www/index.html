@@ -5,7 +5,7 @@
     <title>Ratchet template page</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-<<<<<<< HEAD
+
     <head>
       <meta charset="utf-8"/>
       <title>AutdooR</title>
@@ -30,12 +30,18 @@
       <h1 class="title">AutdooR</h1>
     </header>
 
-    <button id="kamera">Kamera</button>
+    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
       <!--content-padded muss unbedingt mit "p" sein nicht mit "div">-->
-      <p class="content-padded"/>
+      <p class="content-padded">
+
+        <div id="deviceready" class="blink">
+          <p class="event listening">Connecting to Device</p>
+          <p class="event received">Device is Ready</p>
+      <button class="btn" id="kamera">Kamera</button>
+      </div>
 
       <a href="admin/admin01.html" data-transition="slide-in">
         <button class="btn">Spiel erstellen</button>
@@ -60,41 +66,7 @@
             Haftung:</p>
         </div>
       </div>
-    </div>
-
-    <!-- phantom library, needed for Cordova api calls, added during build -->
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <!-- Include the compiled Ratchet JS -->
-    <script type="text/javascript" src="js/ratchet.min.js"></script>
-=======
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-status-bar-style" content="black">-->
-
-    <link href="css/ratchet.min.css" rel="stylesheet">
-    <!-- Eigene CSS Definitionen -->
-    <link href="css/index.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <header class="bar bar-nav">
-      <h1 class="title">Hinweis erfassen</h1>
-    </header>
-
-    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content">
-      <p class="content-padded"></p>
-
-      <h1>Erfasse einen Hinweis</h1>
-      <button id="text" class="btn">Text erfassen</button>
-
-      <!-- Muss genau so bleiben-->
-      <div id="deviceready" class="blink">
-        <p class="event listening"></p>
-        <p class="event received"></p>
-        <button id="kamera" class="btn">Kamera</button>
-      </div>
+      </p>
     </div>
 
     <!-- phantom library, needed for Cordova api calls, added during build -->
@@ -103,7 +75,7 @@
     <!-- Include the compiled Ratchet JS -->
     <script type="text/javascript" src="js/ratchet.min.js"></script>
 
->>>>>>> d0f73087e491ce60f40a2c5877a4901235f62545
+
   </body>
 
 </html>
