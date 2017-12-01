@@ -24,13 +24,6 @@
 
     <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0" />
-    <plugin name="com.googlemaps.ios" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk" />
-    <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps#multiple_maps">
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyCqu18ILDU1yshbjO3yKQqGlhMjaqcwf94" />
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyCqu18ILDU1yshbjO3yKQqGlhMjaqcwf94" />
-        <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Show your location on the map" />
-        <variable name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Trace your location on the map" />
-    </plugin>
     <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-geolocation" spec="^3.0.0" />
     <plugin name="cordova-plugin-media-capture" spec="^2.0.0" />
