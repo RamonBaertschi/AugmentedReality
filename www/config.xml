@@ -23,7 +23,8 @@
     
    <engine name="android" spec="~6.3.0" />
 
-<plugin name="cordova-plugin-camera" spec="https://github.com/apache/cordova-plugin-camera.git#3.0.0" />
+
+ <plugin spec="https://github.com/apache/cordova-plugin-camera.git source="git" />
     
     
     
