@@ -19,9 +19,11 @@
         <preference name="KeepRunning" value="false"/>
         <preference name="LoadUrlTimeoutValue" value="10000"/>
         <preference name="ShowTitle" value="false"/>
-        <preference name="android-minSdkVersion" value="14" />
     </platform>
     <engine name="android" spec="~6.3.0" />
+    <config-file platform="android" parent="/manifest">
+    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
+</config-file>
 
     <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0" />
