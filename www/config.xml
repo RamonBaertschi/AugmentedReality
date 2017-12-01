@@ -24,7 +24,7 @@
    <engine name="android" spec="~6.3.0" />
 
 
- <plugin name="org.apache.cordova.camera" source="pgb" />
+<gap:plugin name="org.apache.cordova.camera"/>
     
     
     
