@@ -24,7 +24,7 @@
    <engine name="android" spec="~6.3.0" />
 
 
- <plugin spec="https://github.com/apache/cordova-plugin-camera.git source="git" />
+ <plugin name="org.apache.cordova.camera" source="pgb" />
     
     
     
