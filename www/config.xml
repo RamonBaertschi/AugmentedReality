@@ -20,7 +20,7 @@
         <preference name="LoadUrlTimeoutValue" value="10000"/>
         <preference name="ShowTitle" value="false"/>
     </platform>
-    <engine name="android" spec="~6.3.0" />
+    
    
 
     <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git" />
