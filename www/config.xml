@@ -19,6 +19,7 @@
         <preference name="KeepRunning" value="false"/>
         <preference name="LoadUrlTimeoutValue" value="10000"/>
         <preference name="ShowTitle" value="false"/>
+        <preference name="android-minSdkVersion" value="14" />
     </platform>
     <engine name="android" spec="~6.3.0" />
 
